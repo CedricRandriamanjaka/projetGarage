@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 mai 2022, 09:46:32
+    Author     : Cedric
+*/
+
+
+:root{
+    --nuance1: rgb(230,230,230) ;
+    --nuance2: white ; 
+    --nuance3: yellow ;
+    --nuancemenu: rgb(29, 29, 29) ;
+    --padding: 10px;    
+    --padding20: 20px;
+    --headdiv-color: rgb(174, 220, 255);
+
+
+}
+
+#showdiv{
+    border-radius: 5px;
+    padding: var(--padding);
+    box-shadow: 0px 5px 5px grey;
+}
+
+body{
+    margin: 0px;
+    font-family: system-ui;
+    background: var(--nuance1);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    
+    color:grey;
+    text-align: center;
+    padding: 40px;
+    margin: 0px auto;
+    background: white;
+    width: -webkit-fill-available;
+}
+
+a{
+    text-decoration: none ;
+    transition: 0.5s;
+}
+
+/* div{
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px grey;
+} */
+
+input{
+    transition: 2s;
+    margin-top: 5px;
+    padding: var(--padding);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(232, 240, 254);
+
+}
+
+input:focus{
+    background-color: rgb(232, 240, 254);
+    border: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.HEADER{
+    background-color: var(--nuance3);
+    margin: 0;
+    padding : var(--padding);
+}
+
+.HEADER2{
+    background-color: var(--nuance1);
+    margin: 0;
+    padding : var(--padding);
+}
+
+.HEADER_DIV_2{
+    float: right;
+}
+
+.boutton1{
+    border-radius: 5px;
+    padding: var(--padding);
+    background: rgb(240,240,240);    
+}
+
+.contwebindex{
+    width: 15%;
+    margin: 100px auto;
+    background: var(--nuance2);
+}
+
+.contloginIW{
+    width: 20%;
+    margin: 40px auto;
+    background: var(--nuance2);
+}
+
+.headdiv{
+    border-radius: 5px 5px 0px 0px;
+    top: 0;
+    background: var(--headdiv-color);
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 5px ;
+    padding-top: 5px ;
+}
+
+.cont{
+    margin: 0px auto;
+    padding: var(--padding);
+}
+
+.contdiv{
+    border-radius: 0px 0px 5px 5px;
+    background: var(--nuance2);
+}
+
+
+
+
+
+
+
+
+
+.headerIW{
+    width: 20%;
+    display: block;
+    background-color: var(--nuance2) ;
+    color: aliceblue;
+}
+
+.contIW{
+    margin: 10px;
+    float: right;
+    background-color: red;
+    width: 70%;
+}
+
+
+
+
+
+
+
